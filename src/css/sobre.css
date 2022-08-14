@@ -1,0 +1,36 @@
+.sobre {
+    margin: 6em 0;
+    text-align: center;
+}
+
+.sobre__titulo {
+    color: var(--vinho);
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 1.5em;
+}
+
+.sobre__subtitulo {
+    color: var(--cinza_escuro);
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+.sobre__texto {
+    color: var(--cinza_claro);
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    width: 70%;
+}
+
+@media screen and (max-width: 400px) {
+    .sobre__subtitulo {
+        font-size: 28px;
+    }
+
+    .sobre__texto {
+        font-size: 16px
+    }
+}

@@ -1,0 +1,51 @@
+.depoimento {
+    background-color: var(--vermelho_claro);
+    border-radius: 16px;
+    margin: 6em 6em;
+    text-align: center;
+    padding: 4em;
+}
+
+.depoimento__titulo {
+    color: var(--vinho);
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0.8em;
+}
+
+.depoimento__texto {
+    color: var(--cinza_escuro);
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.pessoa__nome {
+    color: var(--cinza_escuro);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+}
+
+.pessoa__profissao {
+    color: var(--cinza_claro);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+    .depoimento__texto {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .depoimento {
+        margin: 6em 2em;
+    }
+
+    .depoimento__texto {
+        font-size: 18px;
+    }
+}

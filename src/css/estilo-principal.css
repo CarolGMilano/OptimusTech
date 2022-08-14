@@ -1,0 +1,27 @@
+@import url("hearder.css");
+@import url("sobre.css");
+@import url("metricas.css");
+@import url("vagas.css");
+@import url("depoimento.css");
+@import url("rodape.css");
+
+:root {
+    --branco: #FFFFFF;
+    --branco_alternativo: #F9FAFB;
+    --cinza_bordas: #EAECF0;
+    --cinza_claro: #667085;
+    --cinza_claro-alternativo: #66708533;
+    --cinza_escuro: #101828;
+    --cinza_logo: #3A404E;
+    --preto: #000000;
+    --vinho: #8E2424;
+    --vinho_alternativo: #8e2424c2;
+    --vermelho_claro: rgba(142, 36, 36, 0.05);
+
+    --fonte: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte);
+}

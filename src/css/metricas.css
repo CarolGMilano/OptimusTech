@@ -1,0 +1,42 @@
+.metricas {
+    align-items: flex-start;
+    display: flex;
+    gap: 2em;
+    margin: 6em 7em;
+}
+
+.metricas__card {
+    width: 25%;
+}
+
+.metricas__card-titulo {
+    color: var(--vinho);
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 0.2em;
+}
+
+.metricas__card-subtitulo {
+    color: var(--cinza_escuro);
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 0.44em;
+}
+
+.metricas__card-texto {
+    color: var(--cinza_claro);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 400px) {
+    .metricas {
+        flex-direction: column;
+        gap: 5em;
+        margin: 6em 4em;
+    }
+
+    .metricas__card {
+        width: 100%;
+    }
+}
